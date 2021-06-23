@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+
+        "types": [ "node" ],
+        "typeRoots": [ "../node_modules/@types" ],
+        "target": "es6",
+        "outDir": "./dist"
+    },
+
+    "include": ["./src/*.ts", "src/server.mjs"]
+}
